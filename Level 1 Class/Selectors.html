@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <!-- Internal Style -->
+     <style>
+        /* universal Selector */
+        *{
+            color: red;
+        }
+        /* Element selector */
+            h1{
+                color: gold;
+            }
+            div{
+                color: greenyellow;
+            }
+        /* Id selector */
+        #third_selector{
+            color: brown;
+        }
+        #para{
+            color: palevioletred;
+        }
+        /* class selector */
+        .class{
+            color: coral;
+        }
+        /* Group Selector */
+        h4, #fifth{
+           color: fuchsia;     
+        }
+        /* Descendent Selector */
+        #divId #sixth,#sixthPara{
+            color: olive;
+        }
+     </style>
+</head>
+<body>
+        <!-- Element Selector -->
+         <h1>This is my first Heading</h3>
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, cumque.</div>
+         <hr>
+        <!-- Universal Selector -->
+         <h3>This is my second Heading</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugit.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugit.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugit.</p>
+         <hr>
+         <!-- Id selector -->
+          <h3 id="third_selector">This is my third Heading</h3>
+          <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda, magnam sit nihil aliquam molestias nobis nam sunt eum deserunt.</p>
+          <!-- DIV emmet for ID -> #idName -->
+           <div id="random"></div>
+          <hr>
+        <!-- Class selector -->
+         <h3 class="class">This is my fourth Heading</h3>
+         <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae voluptate reprehenderit? Qui cum architecto beatae provident consequuntur. Autem, voluptates.</p>
+         <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae voluptate reprehenderit? Qui cum architecto beatae provident consequuntur. Autem, voluptates.</p>
+         <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestiae voluptate reprehenderit? Qui cum architecto beatae provident consequuntur. Autem, voluptates.</p>
+         <!-- DIV emmet for Class -> .className -->
+          <div class="redem"></div>
+          <hr>
+        <!-- Group Selector -->
+         <h4>This is my fifth Heading</h4>
+         <p id="fifth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laudantium.</p>
+         <hr>
+         <!-- Descendent Selector -->
+          <div id="divId">
+            <h3 id="sixth">This is my sixth Heading</h3>
+            <p id="sixthPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum unde at a hic doloribus cupiditate accusamus. Provident obcaecati ut molestias.</p>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, aut?</p>
+</body>
+</html>
