@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Level 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .class{
+            background-color: aqua;
+            color: rgba(248, 14, 14);
+        }
+        #initial{
+            /* background-color: aqua; */
+            color: rgba(248, 14, 14,0.6);
+        }
+        main{
+            background-color: antiquewhite;
+            height: 500px;
+        }
+        #image{
+            height: 100px;
+            width: 400px;
+            /* background-image: url(Images/myntra.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: blue; */
+            
+            /* backgraound shortAHand */
+            background: blue url(Images/myntra.jpg) no-repeat center;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="initial" class="class">Initial</div>
+    <div id="initial1" class="class">Initial</div>
+    </header>
+    <main>
+        <div id="image"></div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
