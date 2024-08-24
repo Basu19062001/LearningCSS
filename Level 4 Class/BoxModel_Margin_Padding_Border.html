@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Padding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            background-color: aquamarine;
+        }
+        #first{
+            padding: 5px 10px 20px 2px;
+            margin: 5px;
+            border: 3px solid;
+            border-radius: 5px;
+        }
+        #second{
+            margin: 8px 2px 2px 3px;
+            border: 3px dashed rebeccapurple;
+            padding: 5px;
+            border-radius: 6px;
+        }
+        #third{
+            margin: 5px;
+            border: 3px solid coral;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">First</div>
+    <div id="second" class="pad">Second </div>
+    <div id="third" class="pad">Third</div>
+</body>
+</html>
