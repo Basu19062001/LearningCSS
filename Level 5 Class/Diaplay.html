@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display And Position - Display</title>
+    <style>
+        .box{
+            background-color: bisque;
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+        }
+        .boxes{
+            background-color: bisque;
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            display: inline;
+        }
+        #box1{
+            display: inline;
+        }
+        #box2{
+            display: block;
+        }
+        #box3{
+            display: inline-block;
+        }
+        #box4{
+           display: inline-block; 
+        }
+        #box5{
+            visibility: hidden;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+    <div id="box3" class="box">Box 3</div>
+    <div id="box4" class="box">Box 4</div> <br> 
+    <div class="boxes">Box</div>
+    <div class="boxes">Box</div>
+    <div class="boxes">Box</div>
+    <div class="boxes">Box</div> <br>   
+    <div id="box5" class="box">Box 5</div>
+    <div id="box6" class="box">Box 6</div>
+</body>
+</html>

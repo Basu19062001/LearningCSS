@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Unit - EM and REM</title>
+</head>
+<style>
+    *{
+        margin: 0; padding: 0;
+        font-size: 60px;
+    }
+    .class{
+        width: 60%;
+        height: 25%;
+        background-color: blueviolet;
+        margin-top: 5px;
+    }
+    #first{
+        background-color: aquamarine;
+        font-size: 10px;
+        height: 100px;
+        width: 150px;
+    }
+    #second{
+        font-size: 2em;
+
+    }
+    #third{
+        font-size: 0.2rem;
+    }
+</style>
+<body>
+    <!-- EM -> Element's  -->
+    <!-- REM -> Root Element's  -->
+     Body
+     <div id="first">first
+        <div id="second" class="class">
+            Second
+        </div>
+        <div id="third" class="class">
+            Third
+        </div>
+     </div>
+</body>
+</html>

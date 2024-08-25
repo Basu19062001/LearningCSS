@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        margin: 10px;
+    }
+    .box{
+        background-color: khaki;
+        height: 60px;
+        width: 60px;
+        border: 2px solid thistle;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
+    #box1{
+        position: static;
+    }
+    #box2{
+     position: relative; 
+     top: 20px;
+     left: 90px;  
+    }
+    #box3{
+        position: static;
+    }
+    #box4{
+        position: fixed;
+        left: 250px;
+    }
+    #box7{
+        position: absolute;
+        left: 150px;
+    }
+    #box8{
+        position: absolute;
+        left: 220px;
+        top: 75px;
+    }
+</style>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box 2</div>
+    <div id="box3" class="box">Box 3</div>
+    <div id="box4" class="box">Box 4</div>
+    <div id="box5" class="box">Box 5</div>
+    <div id="box6" class="box">Box 6</div>
+    <div id="box7" class="box">Box 7</div>
+    <div id="box8" class="box">Box 8</div>
+    <div id="box9" class="box">Box 9</div>
+    <div id="box10" class="box">Box 10</div>
+    <div id="box11" class="box">Box 11</div>
+    <div id="box12" class="box">Box 12</div>
+</body>
+</html>
