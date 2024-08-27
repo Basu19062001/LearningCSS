@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+        #progress_container{
+            background-color: beige;
+            height: 30px;
+            width: 90%;
+            border: 2px solid salmon;
+            border-radius: 17px;
+            position: relative;
+            left: 4%;
+        }
+        #progress_bar{
+            background-color: aqua;
+            height: 100%;
+            border-radius: 17px;
+
+            animation: animate_progressBar 3s ease-in-out 1s normal ;
+        }
+        @keyframes animate_progressBar {
+            0%{width: 5%;}
+            90%{width: 95%;}
+            95%{width: 70%;}
+            100%{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div id="progress_container">
+        <div id="progress_bar"></div>
+    </div>
+</body>
+</html>

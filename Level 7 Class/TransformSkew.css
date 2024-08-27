@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 75px;
+    width: 75px;
+    background-color: aliceblue;
+    border: 2px solid rgb(128, 210, 243);
+    margin: 25px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+#box1:hover{
+    /* height: 90px;
+    width: 90px; */
+    border-color: rgb(251, 165, 244);
+    transform: skew(45deg);
+}
+#box2:hover{
+    /* height: 90px;
+    width: 90px; */
+    border-color: rgb(147, 244, 156);
+    transform: skew(180deg);
+}
+#box3:hover{
+    /* height: 90px;
+    width: 90px; */
+    border-color: rgb(253, 132, 188);
+    transform: skewy(45deg);
+}
+#box4:hover{
+    /* height: 90px;
+    width: 90px; */
+    border-color: rgb(243, 181, 95);
+    transform: skew(270deg);
+}

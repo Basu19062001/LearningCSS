@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 75px;
+    width: 75px;
+    background-color: aliceblue;
+    border: 2px solid rgb(128, 210, 243);
+    margin: 25px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+#box1:hover{
+    height: 90px;
+    width: 90px;
+    border-color: rgb(251, 165, 244);
+    transform: scale(2);
+}
+#box2:hover{
+    height: 90px;
+    width: 90px;
+    border-color: rgb(147, 244, 156);
+    transform: scale(4);
+}
+#box3:hover{
+    height: 90px;
+    width: 90px;
+    border-color: rgb(253, 132, 188);
+    transform: scalex(3);
+}
+#box4:hover{
+    height: 90px;
+    width: 90px;
+    border-color: rgb(243, 181, 95);
+    transform: scaley(3);
+}
