@@ -1,0 +1,35 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* #container{
+    height: 300px;
+    width: 500px;
+    background-color: antiquewhite;
+    border: 2px solid hotpink;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+} */
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(148, 148, 230);
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+@media screen and (min-width: 300px)and (max-width: 400px) {
+    #box2{
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+    }
+}
+@media screen and (max-width: 345px) {
+    #box1{
+        height: 150px;
+        width: 50px;
+        background-color: aqua;
+    }
+}

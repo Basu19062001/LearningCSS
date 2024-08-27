@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 250px;
+    width: 400px;
+    background-color: aquamarine;
+    border: 2px solid navy;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(224, 146, 50);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+#box2{
+    flex-grow: 2;
+}

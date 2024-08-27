@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 450px;
+    width: 600px;
+    background-color: aquamarine;
+    border: 2px solid navy;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(238, 151, 45);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+#box1{
+    order: 2;
+}
+#box2{
+    order: 3;
+}
+#box3{
+    order: 4;
+}
+#box{
+    order: 1;
+}
